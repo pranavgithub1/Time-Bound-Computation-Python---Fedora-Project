@@ -9,8 +9,7 @@ def create_python_matrix(rows,columns):
 python_times = []
 numpy_times = []
 j=range(1,4)
-# create two lists of the elapsed time for matrix multiplications with python built-in '@' vs numpy.matmul()
-# tested with n*n size matrices where n = 10,100,1000...10**5
+
 for n in [10,100,1000]:
     #create two matrices for numpy to multiply
     numpymatrix1 = numpy.random.rand(n,n)
