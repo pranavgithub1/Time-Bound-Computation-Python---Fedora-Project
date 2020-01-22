@@ -40,7 +40,7 @@ Matplotlib graphs were created using this as data.
 
 The reason numpy is faster is due to the way it's arrays are stored in memory. A numpy array is more densely packed in memory and it frees memory faster than python lists.
 
-Here were the results in seconds from the test:
+Here were the results in seconds from the test for n = 10,100,1000:
 ```
 Python Times(s): [0.00014179999999996973, 0.094526, 170.15191320000002]
 Numpy Times(s): [5.430000000000712e-05, 0.0002750000000000252, 0.03332709999997974]
