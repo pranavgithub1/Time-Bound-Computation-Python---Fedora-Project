@@ -11,7 +11,7 @@ This was tested against the following numpy code:
 numpy.matmul(matrix1,matrix2)
 ```
 Random matrices of size (n,n) were used to test for n values 10, 100 and 1000. These were the most values I could test due to the limitations of my system.
-The matrices were created sepereatley for testing python and numpy multiplication. For python a function was written to create random matrices:
+The matrices were created seperately for testing python and numpy multiplication. For python a function was written to create random matrices:
 ```
 def create_python_matrix(rows,columns):
     return [[random.random() for x in range(rows)] for i in range(columns)]
