@@ -33,7 +33,7 @@ numpy_times.append(numpy_elapsed)
 ```
 I was only able to use 1 reding from the timit module due to the limitations of my computer.
 
-Matplotlib graphs were created using this as data.
+Matplotlib graphs were created using this as data. The yscale was set to log to visualize the data better.
 * "numpyMatMult_elapsed_times.png" is a graph of the numpy performance alone
 * "pythonMatMult_elapsed_times.png" is a graph of the python performance alone
 * "MatMult_elapsed_times_combined.png" is a graph of the performance together. This graph allows you to see the clear winner, numpy.
